@@ -7,14 +7,14 @@ public class GuestTest {
     @Test
     void testGuest() {
         
-        Guest g = new Guest("Arbaz", "0300");
+        Guest g = new Guest("Areesha", "0300");
         assertEquals("Arbaz", g.getName());
     }
 
     @Test
     void testGuestContact() {
         
-        Guest g = new Guest("Arbaz", "0300");
+        Guest g = new Guest("Areesha", "0300");
         assertEquals("0300", g.getContact());
     }
 }
